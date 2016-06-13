@@ -1,0 +1,17 @@
+﻿빌드 시작: 2016-06-14 오전 12:02:40
+     1>2 노드의 "E:\#DataBase\91_교재 CD\Algorithm\Algorithm_Tester\LINKED1\LINKED1.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\LINKED1.C
+         LINKED1.C
+     1>e:\#database\91_교재 cd\algorithm\linked1.c(19): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>e:\#database\91_교재 cd\algorithm\linked1.c(32): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\LINKED1.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\LINKED1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\LINKED1.lib" /MACHINE:X86 /SAFESEH .\Debug\LINKED1.obj
+     1>LINK : warning LNK4076: '.\Debug\LINKED1.ilk' 증분 상태 파일이 잘못되었습니다(삭제됨). 비증분 링크합니다.
+     1>LINKED1.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:LBR' 사양으로 인해 무시됩니다.
+         LINKED1.vcxproj -> E:\#DataBase\91_교재 CD\Algorithm\Algorithm_Tester\LINKED1\.\Debug\LINKED1.exe
+     1>"E:\#DataBase\91_교재 CD\Algorithm\Algorithm_Tester\LINKED1\LINKED1.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.19
